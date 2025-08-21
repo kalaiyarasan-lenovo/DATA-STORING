@@ -37,10 +37,10 @@ if(isset( $_POST["submit"])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Deatils</title>
-    <link rel="stylesheet" href="login_style">
+    <link rel="stylesheet" href="login_style.css">
 </head>
 <body>
-    <form action="data_stored.php" method="post">
+    <form action="data_stored.php" method="post" class="login_system">
         <div>
             <label for="username">username:</label>
             <input type="text" name="username" required>
@@ -58,7 +58,7 @@ if(isset( $_POST["submit"])){
             <input type="password" name="confirm_pass" required>
         </div><br>
         <div>
-            <input type="submit" name="submit">
+            <button type="submit" name="submit">Submit</button>
         </div>
     </form>
 </body>

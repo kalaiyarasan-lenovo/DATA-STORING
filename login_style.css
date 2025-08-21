@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    background-image: url('login_img.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Form box */*
+.login_system {
+    width: 400px;
+    padding: 70px;
+    background:transparent;
+    border: 1px solid black;
+    border-radius: 50px 25px;
+    text-align: center;
+}
+
+.login_system:hover{
+    width : 400px;
+    padding:75px;
+}
+
+
+/* Heading */
+.login_system h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:white;
+}
+
+/* Labels */
+.login_system label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color:white;
+}
+
+/* Input fields */
+.login_system input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    background:transparent;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    opacity: 1;
+}
+
+/* Button */
+.login_system button {
+    width: 50%;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    background: #4A90E2;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.login_system button:hover {
+    background:blue;
+    width: 60%;
+    padding: 14px;
+}
+.login_system input:hover{
+    cursor: pointer;
+}
+
+.login_system button:active{
+    color:rgb(219, 205, 205);
+}
