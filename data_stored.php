@@ -11,7 +11,7 @@ if ($conn->connect_error) {
     echo 'connection error';
 }
 else{
-    echo "<script>alert('Datebase Connected')</script>";
+    echo "<script>alert('Datebase Connected!')</script>";
 }
 if(isset( $_POST["submit"])){
     $username = $_POST["username"];
